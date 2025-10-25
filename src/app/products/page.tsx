@@ -1,4 +1,5 @@
 import Header from '@/components/layout/Header';
+import ProductGrid from '@/components/layout/ProductGrid';
 import BrandFilter from '@/components/products/BrandFilter';
 
 export default function ProductsPage() {
@@ -10,6 +11,7 @@ export default function ProductsPage() {
         showCartButton={true}
       />
       <BrandFilter />
+      <ProductGrid />
     </div>
   );
 }
