@@ -1,0 +1,29 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "noResults": "No products found"
+  },
+  "header": {
+    "menswear": "Men's Wear"
+  },
+  "filters": {
+    "sortAndFilter": "Sort and Filter",
+    "sortBy": "Sort By",
+    "price": "Price",
+    "size": "Size",
+    "rating": "Rating",
+    "clearAll": "Clear All",
+    "apply": "Apply"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "totalPrice": "Total Price",
+    "withVAT": "with VAT, SD",
+    "sizeGuide": "Size Guide",
+    "description": "Description",
+    "reviews": "Reviews",
+    "viewAll": "View All",
+    "readMore": "Read More..."
+  }
+}

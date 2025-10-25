@@ -1,0 +1,29 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "noResults": "Aucun produit trouvé"
+  },
+  "header": {
+    "menswear": "Vêtements Homme"
+  },
+  "filters": {
+    "sortAndFilter": "Trier et Filtrer",
+    "sortBy": "Trier Par",
+    "price": "Prix",
+    "size": "Taille",
+    "rating": "Note",
+    "clearAll": "Tout Effacer",
+    "apply": "Appliquer"
+  },
+  "product": {
+    "addToCart": "Ajouter au Panier",
+    "totalPrice": "Prix Total",
+    "withVAT": "avec TVA, SD",
+    "sizeGuide": "Guide des Tailles",
+    "description": "Description",
+    "reviews": "Avis",
+    "viewAll": "Voir Tout",
+    "readMore": "Lire Plus..."
+  }
+}
