@@ -29,7 +29,6 @@ export default function ProductCard({ product }: ProductCardProps) {
       onClick={handleCardClick}
       className="group cursor-pointer bg-white rounded-[15px] overflow-hidden transition-all duration-200 hover:shadow-lg"
     >
-      {/* Product Image - Fixed 183x232px from Figma */}
       <div className="relative w-full h-[232px] bg-[#E9E9E9] rounded-[15px] overflow-hidden">
         <Image
           src={product.image}
@@ -39,7 +38,6 @@ export default function ProductCard({ product }: ProductCardProps) {
           sizes="(max-width: 768px) 50vw, 33vw"
         />
         
-        {/* Wishlist Button - Top Right */}
         <button
           onClick={handleWishlistClick}
           className="absolute top-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-sm hover:shadow-md transition-all duration-200 z-10"
@@ -55,7 +53,6 @@ export default function ProductCard({ product }: ProductCardProps) {
         </button>
       </div>
 
-      {/* Product Info */}
       <div className="p-3">
         <h3 className="text-[14px] font-medium text-black line-clamp-2 mb-1">
           {product.name}

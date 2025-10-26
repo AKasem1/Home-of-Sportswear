@@ -76,8 +76,8 @@ export default function ProductGrid() {
       
       const queryString = buildQueryParams(page);
       const response = await fetch(`${API_BASE_URL}?${queryString}`);
-      console.log('Fetching products with URL:', `${API_BASE_URL}?${queryString}`);
-      console.log('Response:', response);
+      // console.log('Fetching products with URL:', `${API_BASE_URL}?${queryString}`);
+      // console.log('Response:', response);
       
       if (!response.ok) {
         throw new Error('Failed to fetch products');

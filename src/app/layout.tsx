@@ -1,9 +1,13 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import ToastProvider from '@/components/providers/ToastProvider';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Mitch Design",
-  description: "Mitch Design Assessment",
+  title: 'Mitch Design - E-Commerce',
+  description: 'Modern e-commerce store',
 };
 
 export default function RootLayout({
@@ -13,8 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <ToastProvider />
+      </body>
     </html>
   );
 }
-

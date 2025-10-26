@@ -48,7 +48,6 @@ export default function BrandFilter() {
                 aria-label={`Filter by ${brand.name}`}
                 aria-pressed={isSelected}
               >
-                {/* Brand Logo in White Rounded Background */}
                 <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center flex-shrink-0 p-1.5">
                   <Image
                     src={brand.logo}
@@ -60,12 +59,10 @@ export default function BrandFilter() {
                   />
                 </div>
 
-                {/* Brand Name */}
                 <span className="text-[14px] font-medium text-black whitespace-nowrap pr-1">
                   {brand.name}
                 </span>
 
-                {/* Close Icon (only when selected) */}
                 {isSelected && (
                   <X 
                     className="w-4 h-4 text-black flex-shrink-0" 

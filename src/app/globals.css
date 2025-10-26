@@ -6,16 +6,6 @@
 }
 
 @theme inline {
-  --color-background: #ffffff;
-  --color-foreground: #171717;
-  --color-primary: #0C4B54;
-  --color-primary-hover: #0A3D44;
-  --color-text-primary: #000000;
-  --color-text-secondary: #8899A8;
-  --color-text-muted: #B0BEC5;
-  --color-border: #E2E2E2;
-  --color-border-light: #F5F5F5;
-  --color-border-dark: #D0D0D0;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -42,4 +32,41 @@ body {
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
+}
+
+
+/* Add to your existing globals.css */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
 }
